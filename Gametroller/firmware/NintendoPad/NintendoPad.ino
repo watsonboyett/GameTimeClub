@@ -1,5 +1,5 @@
 
-#include "Arduino.h"
+#include <Arduino.h>
 
 #define P1_DATA_PIN    (20)
 #define P1_STROBE_PIN  (19)
@@ -106,11 +106,9 @@ void loop(void)
   }
 
   uint16_t btns = buttons();
-  //Serial.println(btns, BIN);
 
   if ((btns & NES_A) == NES_A)
   {
-    //Serial.println("A");
     Keyboard.press(KEY_E);
   }
   else
@@ -120,7 +118,6 @@ void loop(void)
 
   if ((btns & NES_B) == NES_B)
   {
-    //Serial.println("B");
     Keyboard.press(KEY_Q);
   }
   else
@@ -130,17 +127,24 @@ void loop(void)
 
   if ((btns & NES_SELECT) == NES_SELECT)
   {
-    //Serial.println("SELECT");
+    Keyboard.press(KEY_ENTER);
+  }
+  else
+  {
+    Keyboard.release(KEY_ENTER);
   }
 
   if ((btns & NES_START) == NES_START)
   {
-    //Serial.println("START");
+    Keyboard.press(KEY_SPACE);
+  }
+  else
+  {
+    Keyboard.release(KEY_SPACE);
   }
 
   if ((btns & NES_UP) == NES_UP)
   {
-    //Serial.println("UP");
     Keyboard.press(KEY_W);
   }
   else
@@ -151,7 +155,6 @@ void loop(void)
 
   if ((btns & NES_DOWN) == NES_DOWN)
   {
-    //Serial.println("DOWN");
     Keyboard.press(KEY_S);
   }
   else
@@ -161,7 +164,6 @@ void loop(void)
 
   if ((btns & NES_LEFT) == NES_LEFT)
   {
-    //Serial.println("LEFT");
     Keyboard.press(KEY_A);
   }
   else
@@ -171,7 +173,6 @@ void loop(void)
 
   if ((btns & NES_RIGHT) == NES_RIGHT)
   {
-    //Serial.println("RIGHT");
     Keyboard.press(KEY_D);
   }
   else
