@@ -1,4 +1,7 @@
 
+# must manually add gerber/archive files
+*.zip
+
 # Created by https://www.gitignore.io/api/eagle,windows
 
 ### Eagle ###
