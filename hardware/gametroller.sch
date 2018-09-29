@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.0">
+<eagle version="9.1.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -950,35 +950,35 @@ by exp-lbrs.ulp</description>
 <package name="USB-10118192-0001LF">
 <description>USB MICRO B&lt;p&gt;
 FCI</description>
-<wire x1="-3.9" y1="4.3" x2="3.9" y2="4.3" width="0.0508" layer="51"/>
-<wire x1="3.9" y1="4.3" x2="3.9" y2="-0.7" width="0.0508" layer="51"/>
-<wire x1="3.9" y1="-0.7" x2="3.1" y2="-0.7" width="0.0508" layer="51"/>
-<wire x1="3.1" y1="-0.7" x2="3.1" y2="-1.1" width="0.0508" layer="51"/>
-<wire x1="3.1" y1="-1.1" x2="2.9" y2="-1.3" width="0.0508" layer="51" curve="-90"/>
-<wire x1="2.9" y1="-1.3" x2="-2.9" y2="-1.3" width="0.0508" layer="51"/>
-<wire x1="-2.9" y1="-1.3" x2="-3.1" y2="-1.1" width="0.0508" layer="51" curve="-90"/>
-<wire x1="-3.1" y1="-1.1" x2="-3.1" y2="-0.7" width="0.0508" layer="51"/>
-<wire x1="-3.1" y1="-0.7" x2="-3.6" y2="-0.7" width="0.0508" layer="51"/>
-<wire x1="-3.6" y1="-0.7" x2="-3.9" y2="-0.7" width="0.0508" layer="51"/>
-<wire x1="-3.9" y1="-0.7" x2="-3.9" y2="4.3" width="0.0508" layer="51"/>
-<wire x1="2.9" y1="-1.2" x2="-2.9" y2="-1.2" width="0.0508" layer="51"/>
-<wire x1="-2.9" y1="-1.2" x2="-3.1" y2="-1.1" width="0.0508" layer="51" curve="-67.3801"/>
-<wire x1="3.1" y1="-1.1" x2="2.9" y2="-1.2" width="0.0508" layer="51" curve="-53.1301"/>
-<wire x1="3.85" y1="0" x2="-3.85" y2="0" width="0" layer="51"/>
-<wire x1="-4.25" y1="-1.2" x2="-4.05" y2="-1.35" width="0.0508" layer="51"/>
-<wire x1="-4.05" y1="-1.35" x2="-3.6574" y2="-0.8702" width="0.0508" layer="51"/>
-<wire x1="-3.6574" y1="-0.8702" x2="-3.6" y2="-0.7093" width="0.0508" layer="51" curve="39.3012"/>
-<wire x1="-3.6" y1="-0.7093" x2="-3.6" y2="-0.7" width="0.0508" layer="51"/>
-<wire x1="-4.25" y1="-1.2" x2="-3.9307" y2="-0.7895" width="0.0508" layer="51"/>
-<wire x1="-3.9307" y1="-0.7895" x2="-3.9" y2="-0.7" width="0.0508" layer="51" curve="37.8954"/>
-<wire x1="4.25" y1="-1.2" x2="4.05" y2="-1.35" width="0.0508" layer="51"/>
-<wire x1="4.05" y1="-1.35" x2="3.6574" y2="-0.8702" width="0.0508" layer="51"/>
-<wire x1="3.6574" y1="-0.8702" x2="3.6" y2="-0.7093" width="0.0508" layer="51" curve="-39.3012"/>
-<wire x1="3.6" y1="-0.7093" x2="3.6" y2="-0.7" width="0.0508" layer="51"/>
-<wire x1="4.25" y1="-1.2" x2="3.9307" y2="-0.7895" width="0.0508" layer="51"/>
-<wire x1="3.9307" y1="-0.7895" x2="3.9" y2="-0.7" width="0.0508" layer="51" curve="-37.9224"/>
-<text x="-5.155640625" y="0.401215625" size="1.0191" layer="25" ratio="18" rot="R90">&gt;NAME</text>
-<text x="5.9179" y="0.3009125" size="0.815265625" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<wire x1="-3.9" y1="4.3" x2="3.9" y2="4.3" width="0.0508" layer="21"/>
+<wire x1="3.9" y1="4.3" x2="3.9" y2="-0.7" width="0.0508" layer="21"/>
+<wire x1="3.9" y1="-0.7" x2="3.1" y2="-0.7" width="0.0508" layer="21"/>
+<wire x1="3.1" y1="-0.7" x2="3.1" y2="-1.1" width="0.0508" layer="21"/>
+<wire x1="3.1" y1="-1.1" x2="2.9" y2="-1.3" width="0.0508" layer="21" curve="-90"/>
+<wire x1="2.9" y1="-1.3" x2="-2.9" y2="-1.3" width="0.0508" layer="21"/>
+<wire x1="-2.9" y1="-1.3" x2="-3.1" y2="-1.1" width="0.0508" layer="21" curve="-90"/>
+<wire x1="-3.1" y1="-1.1" x2="-3.1" y2="-0.7" width="0.0508" layer="21"/>
+<wire x1="-3.1" y1="-0.7" x2="-3.6" y2="-0.7" width="0.0508" layer="21"/>
+<wire x1="-3.6" y1="-0.7" x2="-3.9" y2="-0.7" width="0.0508" layer="21"/>
+<wire x1="-3.9" y1="-0.7" x2="-3.9" y2="4.3" width="0.0508" layer="21"/>
+<wire x1="2.9" y1="-1.2" x2="-2.9" y2="-1.2" width="0.0508" layer="21"/>
+<wire x1="-2.9" y1="-1.2" x2="-3.1" y2="-1.1" width="0.0508" layer="21" curve="-67.3801"/>
+<wire x1="3.1" y1="-1.1" x2="2.9" y2="-1.2" width="0.0508" layer="21" curve="-53.1301"/>
+<wire x1="3.85" y1="0" x2="-3.85" y2="0" width="0" layer="21"/>
+<wire x1="-4.25" y1="-1.2" x2="-4.05" y2="-1.35" width="0.0508" layer="21"/>
+<wire x1="-4.05" y1="-1.35" x2="-3.6574" y2="-0.8702" width="0.0508" layer="21"/>
+<wire x1="-3.6574" y1="-0.8702" x2="-3.6" y2="-0.7093" width="0.0508" layer="21" curve="39.3012"/>
+<wire x1="-3.6" y1="-0.7093" x2="-3.6" y2="-0.7" width="0.0508" layer="21"/>
+<wire x1="-4.25" y1="-1.2" x2="-3.9307" y2="-0.7895" width="0.0508" layer="21"/>
+<wire x1="-3.9307" y1="-0.7895" x2="-3.9" y2="-0.7" width="0.0508" layer="21" curve="37.8954"/>
+<wire x1="4.25" y1="-1.2" x2="4.05" y2="-1.35" width="0.0508" layer="21"/>
+<wire x1="4.05" y1="-1.35" x2="3.6574" y2="-0.8702" width="0.0508" layer="21"/>
+<wire x1="3.6574" y1="-0.8702" x2="3.6" y2="-0.7093" width="0.0508" layer="21" curve="-39.3012"/>
+<wire x1="3.6" y1="-0.7093" x2="3.6" y2="-0.7" width="0.0508" layer="21"/>
+<wire x1="4.25" y1="-1.2" x2="3.9307" y2="-0.7895" width="0.0508" layer="21"/>
+<wire x1="3.9307" y1="-0.7895" x2="3.9" y2="-0.7" width="0.0508" layer="21" curve="-37.9224"/>
+<text x="0" y="5.715" size="1.016" layer="25" font="vector" ratio="20" align="center">&gt;NAME</text>
+<text x="0" y="2.54" size="1.016" layer="27" font="vector" ratio="20" align="center">&gt;VALUE</text>
 <smd name="1" x="-1.3" y="4.1" dx="1.35" dy="0.4" layer="1" rot="R90"/>
 <smd name="2" x="-0.65" y="4.1" dx="1.35" dy="0.4" layer="1" rot="R90"/>
 <smd name="3" x="0" y="4.1" dx="1.35" dy="0.4" layer="1" rot="R90"/>
@@ -6266,8 +6266,8 @@ molded</description>
 <text x="-5.084659375" y="10.1694" size="2.54233125" layer="95">&gt;NAME</text>
 <text x="-5.087559375" y="-12.7189" size="2.54378125" layer="96">&gt;VALUE</text>
 <pin name="VBUS" x="-10.16" y="5.08" length="middle" direction="pas"/>
-<pin name="D+" x="-10.16" y="2.54" length="middle" direction="pas"/>
-<pin name="D-" x="-10.16" y="0" length="middle" direction="pas"/>
+<pin name="D+" x="-10.16" y="0" length="middle" direction="pas"/>
+<pin name="D-" x="-10.16" y="2.54" length="middle" direction="pas"/>
 <pin name="GND" x="-10.16" y="-2.54" length="middle" direction="pas"/>
 <pin name="SHIELD" x="-10.16" y="-5.08" length="middle" direction="pas"/>
 </symbol>
@@ -8414,8 +8414,8 @@ LETTER landscape</description>
 <devices>
 <device name="" package="CUI_UJ2-AH-1-SMT">
 <connects>
-<connect gate="G$1" pin="D+" pad="2"/>
-<connect gate="G$1" pin="D-" pad="3"/>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
 <connect gate="G$1" pin="GND" pad="4"/>
 <connect gate="G$1" pin="SHIELD" pad="S1 S2"/>
 <connect gate="G$1" pin="VBUS" pad="1"/>
@@ -9383,7 +9383,6 @@ http://www.tag-connect.com</description>
 <part name="GND10" library="gametroller" deviceset="GND" device=""/>
 <part name="SW1" library="gametroller" deviceset="SPST_TACT" device="-KMR2"/>
 <part name="+3V4" library="gametroller" deviceset="+3V3" device=""/>
-<part name="U$1" library="gametroller" deviceset="VBUS" device=""/>
 <part name="J1" library="gametroller" deviceset="USB-MICRO" device="" value="microUSB"/>
 <part name="U4" library="gametroller" deviceset="ATSAMD21J" device="_QFP" value="ATSAMD21G18_QFN"/>
 <part name="U$5" library="gametroller" deviceset="GND" device=""/>
@@ -9454,6 +9453,12 @@ http://www.tag-connect.com</description>
 <part name="D1" library="gametroller" deviceset="LED" device="0805_NOOUTLINE" value="RED"/>
 <part name="R3" library="gametroller" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="GND3" library="gametroller" deviceset="GND" device=""/>
+<part name="F1" library="gametroller" deviceset="R-US_" device="R0603" value="500mA">
+<attribute name="MFG" value="Bel Fuse Inc."/>
+<attribute name="MPN" value="0ZCK0050FF2E"/>
+<attribute name="PN-DK" value="507-1813-1-ND"/>
+</part>
+<part name="U$2" library="gametroller" deviceset="VBUS" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9496,7 +9501,6 @@ http://www.tag-connect.com</description>
 <attribute name="VALUE" x="229.235" y="92.71" size="1.778" layer="96"/>
 </instance>
 <instance part="+3V4" gate="G$1" x="66.04" y="147.32" rot="MR0"/>
-<instance part="U$1" gate="G$1" x="162.56" y="63.5"/>
 <instance part="J1" gate="G$1" x="149.86" y="53.34" rot="MR0"/>
 <instance part="U4" gate="G$1" x="60.96" y="60.96"/>
 <instance part="U$5" gate="G$1" x="33.02" y="15.24"/>
@@ -9568,6 +9572,12 @@ http://www.tag-connect.com</description>
 <instance part="D1" gate="G$1" x="213.36" y="48.26" rot="R270"/>
 <instance part="R3" gate="G$1" x="213.36" y="60.96" rot="R270"/>
 <instance part="GND3" gate="G$1" x="213.36" y="40.64" rot="MR0"/>
+<instance part="F1" gate="G$1" x="165.1" y="58.42" smashed="yes">
+<attribute name="NAME" x="162.56" y="60.96" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="170.18" y="60.96" size="1.778" layer="96" align="center"/>
+<attribute name="MFG" x="165.1" y="58.42" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$2" gate="G$1" x="180.34" y="63.5"/>
 </instances>
 <busses>
 </busses>
@@ -9983,14 +9993,13 @@ http://www.tag-connect.com</description>
 </net>
 <net name="VBUS" class="0">
 <segment>
-<wire x1="157.48" y1="58.42" x2="162.56" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="58.42" x2="162.56" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VBUS"/>
-<pinref part="J1" gate="G$1" pin="VBUS"/>
-<wire x1="162.56" y1="58.42" x2="180.34" y2="58.42" width="0.1524" layer="91"/>
-<junction x="162.56" y="58.42"/>
 <pinref part="C18" gate="G$1" pin="1"/>
+<wire x1="170.18" y1="58.42" x2="180.34" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="58.42" x2="180.34" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="F1" gate="G$1" pin="2"/>
+<pinref part="U$2" gate="G$1" pin="VBUS"/>
+<wire x1="180.34" y1="58.42" x2="180.34" y2="60.96" width="0.1524" layer="91"/>
+<junction x="180.34" y="58.42"/>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="IN2"/>
@@ -10182,8 +10191,8 @@ http://www.tag-connect.com</description>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="D+"/>
-<wire x1="160.02" y1="86.36" x2="170.18" y2="86.36" width="0.1524" layer="91"/>
-<label x="165.1" y="86.36" size="1.778" layer="95"/>
+<wire x1="160.02" y1="83.82" x2="170.18" y2="83.82" width="0.1524" layer="91"/>
+<label x="165.1" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D-" class="0">
@@ -10199,8 +10208,8 @@ http://www.tag-connect.com</description>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="D-"/>
-<wire x1="160.02" y1="83.82" x2="170.18" y2="83.82" width="0.1524" layer="91"/>
-<label x="165.1" y="83.82" size="1.778" layer="95"/>
+<wire x1="160.02" y1="86.36" x2="170.18" y2="86.36" width="0.1524" layer="91"/>
+<label x="165.1" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="!RESET" class="0">
@@ -10491,6 +10500,13 @@ http://www.tag-connect.com</description>
 <pinref part="D1" gate="G$1" pin="A"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="213.36" y1="55.88" x2="213.36" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="F1" gate="G$1" pin="1"/>
+<wire x1="157.48" y1="58.42" x2="160.02" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="VBUS"/>
 </segment>
 </net>
 </nets>
