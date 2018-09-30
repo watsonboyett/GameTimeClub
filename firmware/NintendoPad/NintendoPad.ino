@@ -1,13 +1,14 @@
 
 #include <Arduino.h>
+#include <Keyboard.h>
 
-#define P1_DATA_PIN    (20)
-#define P1_STROBE_PIN  (19)
-#define P1_CLOCK_PIN   (18)
+#define P2_DATA_PIN    (7)
+#define P2_STROBE_PIN  (6)
+#define P2_CLOCK_PIN   (5)
 
-#define P2_DATA_PIN    (23)
-#define P2_STROBE_PIN  (22)
-#define P2_CLOCK_PIN   (21)
+#define P1_DATA_PIN    (2)
+#define P1_STROBE_PIN  (8)
+#define P1_CLOCK_PIN   (9)
 
 #define HB_PIN      (13)
 
@@ -22,6 +23,17 @@
 #define NES_DOWN    (1U << 5)
 #define NES_LEFT    (1U << 6)
 #define NES_RIGHT   (1U << 7)
+
+
+#define NES_A_KEY ('x')
+#define NES_B_KEY ('z')
+#define NES_SELECT_KEY (KEY_RIGHT_SHIFT)
+#define NES_START_KEY (KEY_RETURN)
+#define NES_UP_KEY (KEY_UP_ARROW)
+#define NES_DOWN_KEY (KEY_DOWN_ARROW)
+#define NES_LEFT_KEY (KEY_LEFT_ARROW)
+#define NES_RIGHT_KEY (KEY_RIGHT_ARROW)
+
 
 void strobe(void)
 {
@@ -109,75 +121,75 @@ void loop(void)
 
   if ((btns & NES_A) == NES_A)
   {
-    Keyboard.press(KEY_E);
+    Keyboard.press(NES_A_KEY);
   }
   else
   {
-    Keyboard.release(KEY_E);
+    Keyboard.release(NES_A_KEY);
   }
 
   if ((btns & NES_B) == NES_B)
   {
-    Keyboard.press(KEY_Q);
+    Keyboard.press(NES_B_KEY);
   }
   else
   {
-    Keyboard.release(KEY_Q);
+    Keyboard.release(NES_B_KEY);
   }
 
   if ((btns & NES_SELECT) == NES_SELECT)
   {
-    Keyboard.press(KEY_ENTER);
+    Keyboard.press(NES_SELECT_KEY);
   }
   else
   {
-    Keyboard.release(KEY_ENTER);
+    Keyboard.release(NES_SELECT_KEY);
   }
 
   if ((btns & NES_START) == NES_START)
   {
-    Keyboard.press(KEY_SPACE);
+    Keyboard.press(NES_START_KEY);
   }
   else
   {
-    Keyboard.release(KEY_SPACE);
+    Keyboard.release(NES_START_KEY);
   }
 
   if ((btns & NES_UP) == NES_UP)
   {
-    Keyboard.press(KEY_W);
+    Keyboard.press(NES_UP_KEY);
   }
   else
   {
-    Keyboard.release(KEY_W);
+    Keyboard.release(NES_UP_KEY);
 
   }
 
   if ((btns & NES_DOWN) == NES_DOWN)
   {
-    Keyboard.press(KEY_S);
+    Keyboard.press(NES_DOWN_KEY);
   }
   else
   {
-    Keyboard.release(KEY_S);
+    Keyboard.release(NES_DOWN_KEY);
   }
 
   if ((btns & NES_LEFT) == NES_LEFT)
   {
-    Keyboard.press(KEY_A);
+    Keyboard.press(NES_LEFT_KEY);
   }
   else
   {
-    Keyboard.release(KEY_A);
+    Keyboard.release(NES_LEFT_KEY);
   }
 
   if ((btns & NES_RIGHT) == NES_RIGHT)
   {
-    Keyboard.press(KEY_D);
+    Keyboard.press(NES_RIGHT_KEY);
   }
   else
   {
-    Keyboard.release(KEY_D);
+    Keyboard.release(NES_RIGHT_KEY);
   }
 
   loop_count++;
