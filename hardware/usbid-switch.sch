@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.0">
+<eagle version="9.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -169,8 +169,8 @@ by exp-lbrs.ulp</description>
 <wire x1="-3.35" y1="-1.3" x2="3.35" y2="-1.3" width="0.127" layer="21"/>
 <wire x1="3.35" y1="-1.3" x2="3.35" y2="1.3" width="0.127" layer="21"/>
 <wire x1="3.35" y1="1.3" x2="-3.35" y2="1.3" width="0.127" layer="21"/>
-<wire x1="-1.3" y1="-1.3" x2="-1.3" y2="-2.7" width="0.127" layer="49"/>
-<wire x1="-1.3" y1="-2.7" x2="0" y2="-2.7" width="0.127" layer="49"/>
+<wire x1="1.3" y1="-1.3" x2="1.3" y2="-2.7" width="0.127" layer="49"/>
+<wire x1="1.3" y1="-2.7" x2="0" y2="-2.7" width="0.127" layer="49"/>
 <wire x1="0" y1="-2.7" x2="0" y2="-1.3" width="0.127" layer="49"/>
 <text x="0" y="3.81" size="1.016" layer="25" font="vector" ratio="20" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.016" layer="27" font="vector" ratio="20" align="center">&gt;VALUE</text>
@@ -2087,18 +2087,18 @@ Source: VISHAY wscwsn.pdf</description>
 <wire x1="50.8" y1="17.78" x2="114.3" y2="17.78" width="0.254" layer="94"/>
 </symbol>
 <symbol name="AYZ0102AGRLC">
-<wire x1="2.54" y1="0" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="10.16" y1="5.08" x2="15.24" y2="5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-2.54" x2="15.24" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="15.24" y2="-5.08" width="0.254" layer="94"/>
 <circle x="8.89" y="5.08" radius="1.27" width="0.254" layer="94"/>
-<circle x="8.89" y="-2.54" radius="1.27" width="0.254" layer="94"/>
+<circle x="8.89" y="-5.08" radius="1.27" width="0.254" layer="94"/>
 <circle x="1.27" y="0" radius="1.27" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
 <text x="-3.813" y="8.897009375" size="1.7794" layer="95">&gt;NAME</text>
 <text x="-3.8192" y="-8.91145" size="1.782290625" layer="96">&gt;VALUE</text>
 <pin name="2" x="-5.08" y="0" length="middle" direction="pwr"/>
 <pin name="1" x="15.24" y="5.08" length="middle" direction="out" rot="R180"/>
-<pin name="3" x="15.24" y="-2.54" length="middle" direction="out" rot="R180"/>
+<pin name="3" x="15.24" y="-5.08" length="middle" direction="out" rot="R180"/>
 </symbol>
 <symbol name="ZX80-B-5S">
 <wire x1="-5.08" y1="7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
@@ -3067,16 +3067,34 @@ LETTER landscape</description>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="135.89" y="3.81">
-<attribute name="SECTION" x="135.89" y="3.81" size="1.778" layer="96" display="off"/>
+<attribute name="LAST_DATE_TIME" x="199.39" y="31.75" size="2.54" layer="94" align="center-left"/>
+<attribute name="SHEET" x="242.57" y="6.35" size="2.54" layer="94" align="center-left"/>
+<attribute name="DRAWING_NAME" x="199.39" y="25.4" size="2.54" layer="94" align="center-left"/>
+<attribute name="REV" x="242.57" y="31.75" size="2.54" layer="94" align="center-left"/>
+<attribute name="DRAWING_NUM" x="199.39" y="11.43" size="2.54" layer="94" align="center-left"/>
+<attribute name="AUTHOR" x="161.29" y="16.51" size="2.54" layer="94" align="center"/>
+<attribute name="CONTACT_COMPANY" x="161.29" y="31.75" size="1.778" layer="94" align="center"/>
+<attribute name="CONTACT_ADDRESS" x="161.29" y="29.21" size="1.778" layer="94" align="center"/>
+<attribute name="CONTACT_PHONE" x="161.29" y="26.67" size="1.778" layer="94" align="center"/>
+<attribute name="SECTION" x="199.39" y="17.78" size="2.54" layer="94" align="center-left"/>
 </instance>
-<instance part="SW1" gate="G$1" x="88.9" y="129.54" rot="R270"/>
-<instance part="J1" gate="G$1" x="124.46" y="147.32"/>
-<instance part="J2" gate="G$1" x="50.8" y="144.78" rot="MR0"/>
-<instance part="R1" gate="G$1" x="86.36" y="101.6" smashed="yes" rot="R90">
-<attribute name="NAME" x="83.82" y="96.52" size="1.778" layer="95" rot="R90" align="center"/>
-<attribute name="VALUE" x="83.82" y="101.6" size="1.778" layer="96" rot="R90" align="center"/>
+<instance part="SW1" gate="G$1" x="88.9" y="129.54" rot="R270">
+<attribute name="NAME" x="97.797009375" y="133.353" size="1.7794" layer="95" rot="R270"/>
+<attribute name="VALUE" x="79.98855" y="133.3592" size="1.782290625" layer="96" rot="R270"/>
 </instance>
-<instance part="R2" gate="G$1" x="93.98" y="101.6" smashed="yes" rot="R90">
+<instance part="J1" gate="G$1" x="124.46" y="147.32">
+<attribute name="NAME" x="119.38" y="157.48" size="1.524" layer="95" align="center-left"/>
+<attribute name="VALUE" x="119.38" y="137.16" size="1.524" layer="96" align="center-left"/>
+</instance>
+<instance part="J2" gate="G$1" x="50.8" y="144.78" rot="MR0">
+<attribute name="NAME" x="55.88" y="157.48" size="1.524" layer="95" rot="MR0" align="center-left"/>
+<attribute name="VALUE" x="55.88" y="134.62" size="1.524" layer="96" rot="MR0" align="center-left"/>
+</instance>
+<instance part="R1" gate="G$1" x="83.82" y="101.6" rot="R90">
+<attribute name="NAME" x="81.28" y="96.52" size="1.778" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="81.28" y="101.6" size="1.778" layer="96" rot="R90" align="center"/>
+</instance>
+<instance part="R2" gate="G$1" x="93.98" y="101.6" rot="R90">
 <attribute name="NAME" x="91.44" y="96.52" size="1.778" layer="95" rot="R90" align="center"/>
 <attribute name="VALUE" x="91.44" y="101.6" size="1.778" layer="96" rot="R90" align="center"/>
 </instance>
@@ -3114,15 +3132,15 @@ LETTER landscape</description>
 <pinref part="J1" gate="G$1" pin="GND"/>
 <wire x1="58.42" y1="142.24" x2="73.66" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="142.24" x2="106.68" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="142.24" x2="116.84" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="142.24" x2="104.14" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="142.24" x2="116.84" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="96.52" x2="93.98" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="93.98" x2="106.68" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="93.98" x2="106.68" y2="142.24" width="0.1524" layer="91"/>
-<junction x="106.68" y="142.24"/>
+<wire x1="93.98" y1="93.98" x2="104.14" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="93.98" x2="104.14" y2="142.24" width="0.1524" layer="91"/>
+<junction x="104.14" y="142.24"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="96.52" x2="86.36" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="93.98" x2="73.66" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="96.52" x2="83.82" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="93.98" x2="73.66" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="93.98" x2="73.66" y2="142.24" width="0.1524" layer="91"/>
 <junction x="73.66" y="142.24"/>
 <label x="63.5" y="142.24" size="1.778" layer="95"/>
@@ -3144,7 +3162,7 @@ LETTER landscape</description>
 <segment>
 <pinref part="SW1" gate="G$1" pin="3"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="114.3" x2="86.36" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="114.3" x2="83.82" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
