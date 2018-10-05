@@ -259,143 +259,15 @@ by exp-lbrs.ulp</description>
 <wire x1="2.45" y1="1.52" x2="3.15" y2="1.52" width="0" layer="46"/>
 <wire x1="2.45" y1="1.02" x2="2.45" y2="1.52" width="0" layer="46" curve="-180"/>
 <wire x1="3.15" y1="1.52" x2="3.15" y2="1.02" width="0" layer="46" curve="-180"/>
-<text x="-2.00353125" y="1.67070625" size="0.25445" layer="51">1</text>
-<text x="1.802340625" y="1.670521875" size="0.25433125" layer="51">5</text>
+<text x="-1.49553125" y="1.92470625" size="0.25445" layer="51">1</text>
+<text x="1.294340625" y="1.924521875" size="0.25433125" layer="51">5</text>
 <text x="0" y="3.175" size="1.016" layer="25" font="vector" ratio="20" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.016" layer="27" font="vector" ratio="20" align="center">&gt;VALUE</text>
 <circle x="-2.003" y="2.532" radius="0.4" width="0" layer="21"/>
-<wire x1="-0.55" y1="-1.43" x2="0.55" y2="-1.43" width="0" layer="1"/>
-<wire x1="-0.55" y1="-0.33" x2="0.55" y2="-0.33" width="0" layer="1"/>
 <wire x1="-0.55" y1="-0.63" x2="0.55" y2="-0.63" width="0" layer="46"/>
 <wire x1="-0.55" y1="-1.13" x2="0.55" y2="-1.13" width="0" layer="46"/>
 <wire x1="-0.55" y1="-0.63" x2="-0.55" y2="-1.13" width="0" layer="46" curve="180"/>
 <wire x1="0.55" y1="-1.13" x2="0.55" y2="-0.63" width="0" layer="46" curve="180"/>
-<polygon width="0.0001" layer="1">
-<vertex x="0" y="-0.33"/>
-<vertex x="-0.57" y="-0.33" curve="182.083"/>
-<vertex x="-0.55" y="-1.43"/>
-<vertex x="0.01" y="-1.43"/>
-<vertex x="0.01" y="-1.13"/>
-<vertex x="-0.55" y="-1.13" curve="-180"/>
-<vertex x="-0.55" y="-0.63"/>
-<vertex x="0" y="-0.63"/>
-</polygon>
-<polygon width="0.0001" layer="1">
-<vertex x="0" y="-1.43"/>
-<vertex x="0.57" y="-1.43" curve="182.083"/>
-<vertex x="0.55" y="-0.33"/>
-<vertex x="-0.01" y="-0.33"/>
-<vertex x="-0.01" y="-0.63"/>
-<vertex x="0.55" y="-0.63" curve="-180"/>
-<vertex x="0.55" y="-1.13"/>
-<vertex x="0" y="-1.13"/>
-</polygon>
-<polygon width="0.0001" layer="16">
-<vertex x="0" y="-0.33"/>
-<vertex x="-0.57" y="-0.33" curve="182.083"/>
-<vertex x="-0.55" y="-1.43"/>
-<vertex x="0.01" y="-1.43"/>
-<vertex x="0.01" y="-1.13"/>
-<vertex x="-0.55" y="-1.13" curve="-180"/>
-<vertex x="-0.55" y="-0.63"/>
-<vertex x="0" y="-0.63"/>
-</polygon>
-<polygon width="0.0001" layer="16">
-<vertex x="0" y="-1.43"/>
-<vertex x="0.57" y="-1.43" curve="182.083"/>
-<vertex x="0.55" y="-0.33"/>
-<vertex x="-0.01" y="-0.33"/>
-<vertex x="-0.01" y="-0.63"/>
-<vertex x="0.55" y="-0.63" curve="-180"/>
-<vertex x="0.55" y="-1.13"/>
-<vertex x="0" y="-1.13"/>
-</polygon>
-<rectangle x1="-1.20150625" y1="-1.5335" x2="1.2" y2="-0.23" layer="29"/>
-<rectangle x1="-1.20435" y1="-1.54015" x2="1.2" y2="-0.23" layer="30"/>
-<polygon width="0.001" layer="1">
-<vertex x="-2.8" y="1.52"/>
-<vertex x="-3.15" y="1.52" curve="182.292"/>
-<vertex x="-3.14" y="1.02"/>
-<vertex x="-2.8" y="1.02"/>
-<vertex x="-2.8" y="0.72"/>
-<vertex x="-3.15" y="0.72" curve="-178.958"/>
-<vertex x="-3.16" y="1.82"/>
-<vertex x="-2.8" y="1.82"/>
-</polygon>
-<polygon width="0.001" layer="1">
-<vertex x="-2.8" y="1.02"/>
-<vertex x="-2.45" y="1.02" curve="182.292"/>
-<vertex x="-2.46" y="1.52"/>
-<vertex x="-2.8" y="1.52"/>
-<vertex x="-2.8" y="1.82"/>
-<vertex x="-2.45" y="1.82" curve="-178.958"/>
-<vertex x="-2.44" y="0.72"/>
-<vertex x="-2.8" y="0.72"/>
-</polygon>
-<polygon width="0.001" layer="1">
-<vertex x="2.8" y="1.52"/>
-<vertex x="2.45" y="1.52" curve="182.292"/>
-<vertex x="2.46" y="1.02"/>
-<vertex x="2.8" y="1.02"/>
-<vertex x="2.8" y="0.72"/>
-<vertex x="2.45" y="0.72" curve="-178.958"/>
-<vertex x="2.44" y="1.82"/>
-<vertex x="2.8" y="1.82"/>
-</polygon>
-<polygon width="0.001" layer="1">
-<vertex x="2.8" y="1.02"/>
-<vertex x="3.15" y="1.02" curve="182.292"/>
-<vertex x="3.14" y="1.52"/>
-<vertex x="2.8" y="1.52"/>
-<vertex x="2.8" y="1.82"/>
-<vertex x="3.15" y="1.82" curve="-178.958"/>
-<vertex x="3.16" y="0.72"/>
-<vertex x="2.8" y="0.72"/>
-</polygon>
-<polygon width="0.001" layer="16">
-<vertex x="-2.8" y="1.52"/>
-<vertex x="-3.15" y="1.52" curve="182.292"/>
-<vertex x="-3.14" y="1.02"/>
-<vertex x="-2.8" y="1.02"/>
-<vertex x="-2.8" y="0.72"/>
-<vertex x="-3.15" y="0.72" curve="-178.958"/>
-<vertex x="-3.16" y="1.82"/>
-<vertex x="-2.8" y="1.82"/>
-</polygon>
-<polygon width="0.001" layer="16">
-<vertex x="-2.8" y="1.02"/>
-<vertex x="-2.45" y="1.02" curve="182.292"/>
-<vertex x="-2.46" y="1.52"/>
-<vertex x="-2.8" y="1.52"/>
-<vertex x="-2.8" y="1.82"/>
-<vertex x="-2.45" y="1.82" curve="-178.958"/>
-<vertex x="-2.44" y="0.72"/>
-<vertex x="-2.8" y="0.72"/>
-</polygon>
-<polygon width="0.001" layer="16">
-<vertex x="2.8" y="1.52"/>
-<vertex x="2.45" y="1.52" curve="182.292"/>
-<vertex x="2.46" y="1.02"/>
-<vertex x="2.8" y="1.02"/>
-<vertex x="2.8" y="0.72"/>
-<vertex x="2.45" y="0.72" curve="-178.958"/>
-<vertex x="2.44" y="1.82"/>
-<vertex x="2.8" y="1.82"/>
-</polygon>
-<polygon width="0.001" layer="16">
-<vertex x="2.8" y="1.02"/>
-<vertex x="3.15" y="1.02" curve="182.292"/>
-<vertex x="3.14" y="1.52"/>
-<vertex x="2.8" y="1.52"/>
-<vertex x="2.8" y="1.82"/>
-<vertex x="3.15" y="1.82" curve="-178.958"/>
-<vertex x="3.16" y="0.72"/>
-<vertex x="2.8" y="0.72"/>
-</polygon>
-<rectangle x1="-3.80890625" y1="0.61848125" x2="-1.8" y2="1.92" layer="29"/>
-<rectangle x1="-3.80721875" y1="0.61876875" x2="-1.8" y2="1.92" layer="30"/>
-<rectangle x1="1.80253125" y1="0.6190875" x2="3.8" y2="1.92" layer="30"/>
-<rectangle x1="1.802659375" y1="0.6190375" x2="3.799996875" y2="1.92" layer="29"/>
 <wire x1="-4" y1="1.695" x2="4" y2="1.695" width="0.127" layer="51"/>
 <wire x1="-4" y1="1.695" x2="-4" y2="-1.405" width="0.127" layer="51"/>
 <wire x1="-4" y1="-1.405" x2="-2.025" y2="-1.405" width="0.127" layer="51"/>
@@ -413,12 +285,9 @@ by exp-lbrs.ulp</description>
 <smd name="3" x="0" y="1.23" dx="1.8" dy="0.4" layer="1" rot="R90"/>
 <smd name="4" x="0.65" y="1.23" dx="1.8" dy="0.4" layer="1" rot="R90"/>
 <smd name="5" x="1.3" y="1.23" dx="1.8" dy="0.4" layer="1" rot="R90"/>
-<smd name="6" x="0.98" y="-0.87" dx="0.1" dy="0.1" layer="1" stop="no" cream="no"/>
-<hole x="0" y="-0.88" drill="0.5"/>
-<hole x="-2.8" y="1.27" drill="0.5"/>
-<smd name="7" x="-2.09" y="1.27" dx="0.1" dy="0.1" layer="1" stop="no" cream="no"/>
-<hole x="2.8" y="1.27" drill="0.5"/>
-<smd name="8" x="3.56" y="1.27" dx="0.1" dy="0.1" layer="1" stop="no" cream="no"/>
+<pad name="7" x="-2.8194" y="1.27" drill="0.4572" diameter="0.9398" shape="long" rot="R180"/>
+<pad name="8" x="2.8194" y="1.27" drill="0.4572" diameter="0.9398" shape="long"/>
+<pad name="6" x="0" y="-0.889" drill="0.4572" diameter="1.0922" shape="long"/>
 </package>
 <package name="0204V">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
@@ -1991,6 +1860,40 @@ Source: VISHAY wscwsn.pdf</description>
 <text x="-8.75" y="3.9" size="1.27" layer="25">&gt;NAME</text>
 <text x="-8.75" y="-5.15" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="MOLEX_105133-0011_NOSLOTS">
+<description>Conn Micro USB Type B RCP 5 POS 0.65mm Solder ST SMD 5 Terminal 1 Port Embossed T/R</description>
+<text x="-1.36853125" y="1.92470625" size="0.25445" layer="51">1</text>
+<text x="1.294340625" y="1.924521875" size="0.25433125" layer="51">5</text>
+<text x="0" y="3.175" size="1.016" layer="25" font="vector" ratio="20" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.016" layer="27" font="vector" ratio="20" align="center">&gt;VALUE</text>
+<circle x="-2.003" y="2.532" radius="0.4" width="0" layer="21"/>
+<rectangle x1="-1.20150625" y1="-1.5335" x2="1.2" y2="-0.23" layer="29"/>
+<rectangle x1="-1.20435" y1="-1.54015" x2="1.2" y2="-0.23" layer="30"/>
+<rectangle x1="-3.80890625" y1="0.61848125" x2="-1.8" y2="1.92" layer="29"/>
+<rectangle x1="-3.80721875" y1="0.61876875" x2="-1.8" y2="1.92" layer="30"/>
+<rectangle x1="1.80253125" y1="0.6190875" x2="3.8" y2="1.92" layer="30"/>
+<rectangle x1="1.802659375" y1="0.6190375" x2="3.799996875" y2="1.92" layer="29"/>
+<wire x1="-4" y1="1.695" x2="4" y2="1.695" width="0.127" layer="51"/>
+<wire x1="-4" y1="1.695" x2="-4" y2="-1.405" width="0.127" layer="51"/>
+<wire x1="-4" y1="-1.405" x2="-2.025" y2="-1.405" width="0.127" layer="51"/>
+<wire x1="-2.025" y1="-1.405" x2="-2.025" y2="-1.485" width="0.127" layer="51"/>
+<wire x1="-2.025" y1="-1.485" x2="2.025" y2="-1.485" width="0.127" layer="51"/>
+<wire x1="2.025" y1="-1.405" x2="2.025" y2="-1.485" width="0.127" layer="51"/>
+<wire x1="4" y1="-1.405" x2="2.025" y2="-1.405" width="0.127" layer="51"/>
+<wire x1="4" y1="1.695" x2="4" y2="-1.405" width="0.127" layer="51"/>
+<wire x1="-4.324" y1="2.159" x2="4.312" y2="2.159" width="0.05" layer="39"/>
+<wire x1="4.312" y1="2.159" x2="4.312" y2="-1.905" width="0.05" layer="39"/>
+<wire x1="4.312" y1="-1.905" x2="-4.324" y2="-1.905" width="0.05" layer="39"/>
+<wire x1="-4.324" y1="-1.905" x2="-4.324" y2="2.159" width="0.05" layer="39"/>
+<smd name="1" x="-1.3" y="1.23" dx="1.8" dy="0.4" layer="1" rot="R90"/>
+<smd name="2" x="-0.65" y="1.23" dx="1.8" dy="0.4" layer="1" rot="R90"/>
+<smd name="3" x="0" y="1.23" dx="1.8" dy="0.4" layer="1" rot="R90"/>
+<smd name="4" x="0.65" y="1.23" dx="1.8" dy="0.4" layer="1" rot="R90"/>
+<smd name="5" x="1.3" y="1.23" dx="1.8" dy="0.4" layer="1" rot="R90"/>
+<pad name="7" x="-2.8194" y="1.27" drill="1.1938"/>
+<pad name="8" x="2.8194" y="1.27" drill="1.1938"/>
+<pad name="6" x="0" y="-0.889" drill="1.1938"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LETTER_L">
@@ -2242,6 +2145,23 @@ LETTER landscape</description>
 <technology name="">
 <attribute name="MFG" value="Molex"/>
 <attribute name="MPN" value="1051330011"/>
+<attribute name="PN-DK" value="WM9734CT-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-NOSLOTS" package="MOLEX_105133-0011_NOSLOTS">
+<connects>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="ID" pad="4"/>
+<connect gate="G$1" pin="SHIELD" pad="6 7 8"/>
+<connect gate="G$1" pin="VBUS" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MFG" value="Molex" constant="no"/>
+<attribute name="MPN" value="1051330011" constant="no"/>
 <attribute name="PN-DK" value="WM9734CT-ND" constant="no"/>
 </technology>
 </technologies>
@@ -2666,6 +2586,7 @@ LETTER landscape</description>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="MFG" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="PN-DK" value="" constant="no"/>
 </technology>
@@ -3177,8 +3098,6 @@ LETTER landscape</description>
 </sheets>
 <errors>
 <approved hash="104,1,88.9,134.62,SW1,2,ID,,,"/>
-<approved hash="113,1,83.9241,101.6,R1,,,,,"/>
-<approved hash="113,1,91.5441,101.6,R2,,,,,"/>
 </errors>
 </schematic>
 </drawing>
