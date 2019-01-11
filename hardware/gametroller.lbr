@@ -5988,12 +5988,12 @@ Source: VISHAY wscwsn.pdf</description>
 <rectangle x1="-1.2724" y1="-0.636196875" x2="1.27" y2="0.635" layer="41"/>
 <text x="-3.18421875" y="1.910540625" size="1.273690625" layer="27">&gt;VALUE</text>
 <text x="-3.18588125" y="-3.18588125" size="1.27435" layer="25">&gt;NAME</text>
-<smd name="2" x="-1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="1" x="-1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="4" x="0" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="3" x="0" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="6" x="1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="5" x="1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
+<smd name="2" x="-1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="1" x="-1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="4" x="0" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="3" x="0" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="6" x="1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="5" x="1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
 <hole x="-2.54" y="0" drill="0.9906"/>
 <hole x="2.54" y="1.016" drill="0.9906"/>
 <hole x="2.54" y="-1.016" drill="0.9906"/>
@@ -8109,10 +8109,9 @@ molded</description>
 <wire x1="2" y1="-1.75" x2="-2" y2="-1.75" width="0.05" layer="39"/>
 <wire x1="-2" y1="-1.75" x2="-2" y2="1.75" width="0.05" layer="39"/>
 <wire x1="-2" y1="1.75" x2="2" y2="1.75" width="0.05" layer="39"/>
-<circle x="-1.85" y="1.4" radius="0.05" width="0.1" layer="21"/>
-<circle x="-1.85" y="1.4" radius="0.05" width="0.1" layer="51"/>
-<text x="-2.355440625" y="2.355440625" size="0.547034375" layer="25">&gt;NAME</text>
-<text x="-2.361209375" y="-2.83331875" size="0.548328125" layer="27">&gt;VALUE</text>
+<circle x="-2.104" y="1.654" radius="0.3048" width="0" layer="21"/>
+<text x="0" y="2.54" size="1.016" layer="25" font="vector" ratio="20" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center">&gt;VALUE</text>
 <polygon width="0" layer="31">
 <vertex x="-0.5" y="0.75"/>
 <vertex x="0.5" y="0.75"/>
