@@ -3,7 +3,7 @@
 <eagle version="9.2.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -35,7 +35,7 @@
 <layer number="24" name="bOrigins" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -798,7 +798,6 @@ molded</description>
 </library>
 </libraries>
 <attributes>
-<attribute name="REV" value="C"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -1002,7 +1001,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MFG" value="TDK Corporation" x="10.16" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="C2012JB1E106K085AC" x="10.16" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="PN-DK" value="445-11462-1-ND" x="10.16" y="5.08" size="1.778" layer="27" display="off"/>
-<attribute name="REV" value="A" x="10.16" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="10.16" y="5.08" size="1.016" layer="27" align="center"/>
 </element>
 <element name="D4" library="gametroller" package="CHIPLED_0805_NOOUTLINE" value="RED" x="42.8625" y="18.415" rot="R270">

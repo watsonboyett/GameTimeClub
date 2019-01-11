@@ -5,7 +5,7 @@
 // DEFINED CONSTANTS////
 ////////////////////////
 
-#define NUM_INPUTS       1 
+#define NUM_INPUTS       15
 #define BUFFER_LENGTH    3     // 3 bytes gives us 24 samples
 //#define TARGET_LOOP_TIME 694   // (1/60 seconds) / 24 samples = 694 microseconds per sample
 //#define TARGET_LOOP_TIME 758  // (1/55 seconds) / 24 samples = 758 microseconds per sample
@@ -26,26 +26,22 @@
 */
 
 int keyCodes[NUM_INPUTS] = {
-  // top side of the makey makey board
- 
-  KEY_UP_ARROW //,      // up arrow pad
-//  KEY_DOWN_ARROW,    // down arrow pad
-//  KEY_LEFT_ARROW,    // left arrow pad
-//  KEY_RIGHT_ARROW,   // right arrow pad
-//  ' ',               // space button pad
-//  MOUSE_LEFT,        // click button pad
-//  
-//  // female header on the back left side
-//  
-//  'w',                // pin D5
-//  'a',                // pin D4
-//  's',                // pin D3
-//  'd',                // pin D2
-//  'f',                // pin D1
-//  'g',                // pin D0
-//  
-//  // female header on the back right side
-//  
+  KEY_UP_ARROW,
+  KEY_DOWN_ARROW,
+  KEY_LEFT_ARROW,
+  KEY_RIGHT_ARROW,
+  ' ',
+//  MOUSE_LEFT,
+  'a',
+  's',
+  'd',
+  'f',
+  'g',
+  'q',
+  'w',
+  'e',
+  'r',
+  't'
 //  MOUSE_MOVE_UP,      // pin A5
 //  MOUSE_MOVE_DOWN,    // pin A4
 //  MOUSE_MOVE_LEFT,    // pin A3
@@ -57,7 +53,21 @@ int keyCodes[NUM_INPUTS] = {
 // Pin Numbers
 // input pin numbers
 int pinNumbers[NUM_INPUTS] = {
-  0
+  0,
+  1,
+  3,
+  4,
+  2,
+  5,
+  10,
+  11,
+  20,
+  21,
+  22,
+  23,
+  24,
+  30,
+  31
 };
 
 // status LED pin number
